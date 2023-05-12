@@ -1,0 +1,198 @@
+.container-route {
+    position: fixed;
+    margin-left:125px;
+    margin-top: 75px;
+    width: 100%;
+    height: 80%;
+    box-sizing: border-box;
+    padding: 0 150px;
+    
+}
+
+.sensor-backgorund{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.container-route p{
+    padding-top: 10px;
+    margin-left: 20px;
+    color: #000;
+    font-size: 16px;
+}
+
+.sensor-item{
+    position: relative;
+    margin-top: 20px;
+    width:calc(100% - 55px);
+    margin-left: 40px;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 25px;
+    padding-bottom: auto;
+    font-size: 14px;
+}
+
+.padding{
+    padding-bottom: 250px;
+}
+
+
+.Warning-Point{
+    margin-left: 40px;
+}
+
+.Longitude{
+    position: absolute;
+    right:400px ;
+}
+
+.Sensor-delete{
+    position: absolute;
+    right:90px ;
+}
+
+.Sensor-edit{
+    position: absolute;
+    right:210px ;
+}
+
+.E-Field-Name{
+    margin-left: 70px;
+}
+
+.Latitude{
+    margin-left: 300px;
+}
+
+.sensor-item .sensor-Head{
+    margin-bottom: -15px;
+}
+
+hr{
+    position: relative;
+    
+}
+
+input{
+    width:calc(100% - 5px);
+}
+
+
+.btn-add {
+    
+    border: 1px solid rgba(131, 131, 131, 0.6);
+    background-color: #2e86c1;
+    border-radius: 5px;
+    
+    color: white;
+    font-size: 13px;
+    height: 30px;
+    padding-left:15px;
+    padding-right:15px; width:auto;
+    z-index: 5;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.btn-add:hover {
+    background-color: #3c9ddd;
+}
+
+.buttonE {
+    background-color: #F3BA26;
+    width: 100px;
+    border-radius: 5px;
+    border-color: #EBEBEB;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.buttonD {
+    background-color: #D71D24;
+    width: 100px;
+    border-radius: 5px;
+    border-color: #EBEBEB;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.Status .bi-chevron-left {
+    position: relative;
+    height: auto;
+    border: none;
+    padding: auto;
+    width: 3 5px;
+    font-size: 16px;
+    border-radius: 15px;
+    background-color: rgba(219, 219, 219, 0.8);
+    color: rgb(78, 75, 75);
+}
+
+.Status .bi-chevron-left:hover {
+    background-color: rgba(100, 100, 100, 0.8);
+    color: rgb(255, 255, 255);
+}
+
+.arrow-left,
+.long-arrow-left{
+ transform: rotate(-45deg);
+}
+
+.long-arrow-right,
+.long-arrow-left{
+  display: block;
+  margin: 30px auto;
+  width: 10px;
+  height: 10px;
+  border-top: 2px solid rgb(78, 75, 75);
+  border-left: 2px solid rgb(78, 75, 75);
+  cursor: pointer;
+}   
+
+.Link-Spect{
+    margin-left: 40px;
+}
+
+.Link-Spect1{
+    position: absolute;
+    right:165px ;
+}
+
+.Link-Spect2{
+    position: absolute;
+    right:50px ;
+}
+
+.Report{
+    padding: 20px;
+}
+
+.report-Edit{
+    position: absolute;
+    right:100px ;
+}
+
+.report-name{
+    margin-left: 80px;
+}
+
+.report-Head{
+    margin-bottom: -15px;
+}
+
+@media only screen and (max-width: 925px) {
+    .container-route {
+        width: 905px;
+    }
+    .sensor-item{
+        position: relative;
+        width:550px;
+    }
+}
