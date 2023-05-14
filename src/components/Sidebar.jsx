@@ -39,6 +39,7 @@ function Sidebar() {
         <SidebarItem title="การส่ง Line" route="/LineSend" />
         <SidebarItem title="ข้อมูล Activation Code" route="/InformationActivationCode" />
         <SidebarItem title="แก้ไขรหัสผ่าน" route="/PasswordSet" />
+        <SidebarItem title="Simulation Test" route="/SimulationPage"/>
       </nav>
       
     </>

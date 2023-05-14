@@ -1,46 +1,3 @@
-/*import "../SensorSet.css"
-import Menubar from '../../components/Menubar';
-import '../../assistant/css/bootstrap.min.css'
-import { Link } from "react-router-dom";
-function SensorSet() {
-
-  return (
-    <>
-      <Menubar title="ตั้งค่า E Field Sensor" />
-      <div className="container-route">
-        <div className="sensor-backgorund">
-          <p>ข้อมูลรายละเอียด E-Field Sensor</p>
-          <Link to="/SensorSet/AddSensor" className="Link-Spect"><button className="btn-add">เพิ่ม E-Field Sensor ใหม่</button></Link>
-          <div className="sensor-item padding">
-            <div className="sensor-Head">
-              <span>#</span>
-              <span className="Warning-Point">Warning Point</span>
-              <span className="E-Field-Name">E-Field Name </span>
-              <span className="Latitude">พิกัด Latitude</span>
-              <span className="Longitude">พิกัด Longitude</span>
-              <span className="Sensor-edit">แก้ไข</span>
-              <span className="Sensor-delete">ลบ</span>
-            </div>
-            <hr />
-            <div>
-              
-                <label>1</label>
-                <Link to="/SensorSet/EditSensor" className="Link-Spect1"><button className="buttonE">แก้ไข</button></Link>
-                <Link to="/SensorSet/EditSensor" className="Link-Spect2"><button className="buttonD">ลบ</button></Link>
-            </div>
-            <div>
-                <label>2</label>
-                <Link to="/SensorSet/EditSensor" className="Link-Spect1"><button className="buttonE">แก้ไข</button></Link>
-                <Link to="/SensorSet/EditSensor" className="Link-Spect2"><button className="buttonD">ลบ</button></Link>
-            </div>
-            <div>3</div>
-          </div>
-        </div>
-      </div>
-    </>
-  );
-}
-export default SensorSet;*/
 
 import "../Routers.css";
 import Menubar from '../../components/Menubar';
@@ -48,7 +5,7 @@ import '../../assistant/css/bootstrap.min.css'
 import { Link } from "react-router-dom";
 import React, { useEffect, useState } from "react";
 import DataTable from 'react-data-table-component';
-function SensorSet() {
+function PasswordSet() {
   const [error, setError] = useState(null);
   const [isLoaded, setIsLoaded] = useState(false);
   const [items, setItems] = useState([]);
@@ -172,5 +129,5 @@ function SensorSet() {
     );
   }
 }
-export default SensorSet;
+export default PasswordSet;
 
