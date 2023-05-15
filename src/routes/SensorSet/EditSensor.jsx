@@ -4,7 +4,7 @@ import Menubar from '../../components/Menubar';
 function AddSound() {
     return (
         <>
-            <Menubar title="ตั้งค่า E-Field Sensor / เพิ่ม E-Field Sensor ใหม่" arrow="long-arrow-left">
+            <Menubar title="ตั้งค่า E-Field Sensor / แก้ไข E-Field Sensor " arrow="long-arrow-left">
             </Menubar>
             <div className="container-route">
                 <div className="sensor-backgorund">
